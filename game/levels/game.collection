@@ -1,0 +1,22 @@
+name: "game"
+collection_instances {
+  id: "player"
+  collection: "/game/player/player.collection"
+  position {
+    x: 181.0
+    y: -17.0
+  }
+}
+scale_along_z: 0
+embedded_instances {
+  id: "TileMap"
+  data: "components {\n"
+  "  id: \"game\"\n"
+  "  component: \"/game/levels/game.tilemap\"\n"
+  "  position {\n"
+  "    x: -205.0\n"
+  "    y: -146.0\n"
+  "  }\n"
+  "}\n"
+  ""
+}
