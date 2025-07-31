@@ -14,6 +14,12 @@ animations {
   playback: PLAYBACK_NONE
 }
 animations {
+  id: "projectile"
+  start_tile: 419
+  end_tile: 421
+  playback: PLAYBACK_LOOP_PINGPONG
+}
+animations {
   id: "to_do"
   start_tile: 64
   end_tile: 64
