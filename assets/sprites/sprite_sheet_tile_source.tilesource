@@ -8,6 +8,11 @@ animations {
   end_tile: 1
 }
 animations {
+  id: "enemy"
+  start_tile: 397
+  end_tile: 397
+}
+animations {
   id: "player"
   start_tile: 512
   end_tile: 512
